@@ -1,0 +1,60 @@
+/* Estilos gerais para a tabela */
+h1 {
+  color: #05720b;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  border: 1px solid #ddd;
+}
+
+/* Estilo para o botão */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 1.5em; /* Diminuir o tamanho da fonte do título */
+  }
+
+  table {
+      display: block; /* Mudar a tabela para bloco */
+      overflow-x: auto; /* Permitir rolagem horizontal */
+      white-space: nowrap; /* Impedir quebra de linha nas células */
+  }
+
+  th, td {
+      display: inline-block; /* Mudar as células para bloco */
+      width: auto; /* Largura automática */
+  }
+
+  button {
+      width: 100%; /* Botão ocupa toda a largura disponível */
+      margin-top: 10px; /* Margem superior */
+  }
+}

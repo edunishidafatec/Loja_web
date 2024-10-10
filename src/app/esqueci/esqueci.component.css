@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundo claro para destacar a área de redefinição */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #28a745; /* Verde para o título */
+  }
+  
+  b {
+    color: #155724; /* Verde escuro para a mensagem */
+  }
+  
+  input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #28a745;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus {
+    border-color: #155724;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Cor verde mais escura ao passar o mouse */
+  }
+  

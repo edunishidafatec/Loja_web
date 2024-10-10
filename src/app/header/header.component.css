@@ -1,0 +1,65 @@
+.nav{
+    display: flex;
+    background-color: rgb(26, 24, 24);  /* fundo preto */
+    justify-content: space-between; /* espalha os itens nas extremidades */
+}
+
+.nav h1{
+    color: green; /* estilo do título da loja */
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(247, 247, 247); /* cor dos atalhos de vendedor no superior direito */
+}
+
+.nav .nav-search {
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.nav .nav-search input{
+    flex: 1;
+    color: green;
+    border: 1px solid green;
+    height: 35px;
+    border-right: 0px;
+}
+
+.nav .nav-search button{
+    color: green;
+    border: 1px solid green;
+    height: 40px;
+    border-left: 0px;
+}
+/*Alterando o tamanho do logo do site*/
+
+.logo-img {
+    width: 100px; 
+    height: auto; 
+    display: inline-block;
+}
+/* .logo-img {
+    width: 20%; 
+    max-width: 20px; 
+    height: auto;
+    display: inline-block;
+} */
+
